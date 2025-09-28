@@ -4,6 +4,9 @@ body {
   flex-direction: column;
   margin: 0;            /* optional – removes default browser margins */
   height: 100vh;        /* optional – makes it fill the viewport height */
+  background-color: #f9fafb;
+  color: #333;
+  font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 /* Make <main> a flex container arranged in a row */
@@ -34,3 +37,50 @@ footer {
   background: #f0f0f0;
 }
 
+/* Style the header area */
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 1rem;
+}
+
+/* Style navigation links */
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Make the logo stand out */
+.logo {
+  font-size: 2rem; /* the base CSS probably already sets this */
+  margin-right: 1rem;
+}
+
+/* Style article content however you like */
+article {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* Optional: style aside */
+aside {
+  background-color: #f0f4f8;
+  padding: 1rem;
+  border-left: 3px solid #ddd;
+}
+
+/* Optional: style footer */
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
